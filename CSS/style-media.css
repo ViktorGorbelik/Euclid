@@ -1,0 +1,850 @@
+@media (max-width: 1600px) {
+
+  /* Header */
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .header-nav__magnifier {
+    margin-left: 70px;
+  }
+
+  /* About Us */
+
+  .article-preview-card__block {
+    padding: 52px 20px;
+  }
+
+  .article-preview-card__description {
+    margin-right: 10px;
+  }
+
+  .article-preview-card__btn {
+    padding: 20px 10px;
+  }
+
+  .advantages-feature {
+    padding: 30px 20px;
+  }
+
+  .advantages-feature__img {
+    margin-right: 30px;
+  }
+
+  /* Footer */
+
+  .footer__text {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1122px) {
+
+  /* Header */
+
+  .header__logo {
+    margin-right: 30px;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .header-nav__magnifier {
+    margin-left: 50px;
+  }
+
+  /* Hero */
+
+  .section-hero__heading {
+    margin-bottom: 16px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .section-hero__description {
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  /* About Us */
+
+  .advantages-feature {
+    flex-direction: column;
+  }
+
+  .advantages-feature__img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .advantages-feature__heading {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  /* Our work */
+
+  .our-work-content__img-1 {
+    background-image: url(../Img/Consultation-1024px.jpg);
+  }
+
+  /* Footer */
+
+  .footer__text {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .container {
+    margin-bottom: 80px;
+    padding: 0 50px;
+  }
+
+  /* Header */
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__logo {
+    width: 150px;
+    height: 48px;
+  }
+
+  .header-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 162px;
+    padding-right: 106px;
+    padding-left: 50px;
+    min-width: 420px;
+    min-height: 768px;
+    z-index: 3;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    overflow-y: auto;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .header-nav--active {
+    visibility: visible;
+    transform: none;
+  }
+
+  .header-nav__item {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+
+  .header-nav__list {
+    flex-direction: column;
+  }
+
+  .header-burger {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+    height: 23px;
+    background: #fff;
+    cursor: pointer;
+    z-index: 4;
+  }
+
+  .header-burger:focus {
+    outline: 2px solid var(--main-color);
+    outline-offset: 3px;
+  }
+
+  .header-burger__line {
+    position: relative;
+    border-top: 3px solid #333;
+    width: 30px;
+    height: 3px;
+  }
+
+  .header-burger__line:not(:nth-child(3)) {
+    margin-bottom: 7px;
+  }
+
+  .header-burger--active .header-burger__line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .header-burger--active .header-burger__line:first-child {
+    top: 10px;
+    transform: rotate(45deg);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+  }
+
+  .header-burger--active .header-burger__line:last-child {
+    bottom: 10px;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out, bottom 0.3s ease-in-out;
+  }
+
+  .header-nav__magnifier {
+    margin-right: 48px;
+    margin-left: 4px;
+  }
+
+  /* Hero */
+
+  .section-hero__content {
+    padding-top: 160px;
+    padding-right: 77px;
+    padding-left: 77px;
+  }
+
+  .swiper {
+    width: calc(100% - 100px);
+  }
+
+  .swiper-slide-1 {
+    background-image: url('../Img/Balconies-1024px.png');
+  }
+
+  .section-hero__heading {
+    max-width: 770px;
+  }
+
+  .section-hero__description {
+    max-width: 770px;
+  }
+
+  .section-hero__btn {
+    margin-bottom: 108px;
+  }
+
+  /* About Us */
+
+  .section-about-us__container {
+    margin-bottom: 85px;
+  }
+
+  .section-about-us__heading {
+    margin-bottom: 9px;
+  }
+
+  .section-about-us__text {
+    margin-bottom: 62px;
+  }
+
+  .about-us-advantages {
+    flex-direction: column;
+  }
+
+  .article-preview-card {
+    margin-right: 50px;
+    margin-bottom: 32px;
+    width: 100%;
+    min-height: 640px;
+  }
+
+  .article-preview-card__block {
+    padding: 50px;
+  }
+
+  .about-us-advantages__features-container {
+    width: 100%;
+  }
+
+  .advantages-feature {
+    flex-direction: row;
+    padding: 64px 76px 54px 76px;
+  }
+
+  .advantages-feature__img {
+    margin-right: 50px;
+    margin-left: 0;
+  }
+
+  .advantages-feature__heading {
+    text-align: left;
+  }
+
+  /* Our work */
+
+  .section-our-work__steps-list {
+    margin-bottom: 49px;
+  }
+
+  .our-work-content__description {
+    width: 50%;
+    max-width: 437px;
+  }
+
+  .our-work-content__text {
+    margin-bottom: 25px;
+  }
+
+  .our-work-content__img {
+    margin-top: 8px;
+    max-width: 437px;
+  }
+
+  /* Questions */
+
+  .section-questions__heading {
+    margin-bottom: 32px;
+  }
+
+  .faq__heading {
+    max-width: 756px;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  /* Footer */
+
+  .footer__container {
+    padding: 50px 50px;
+  }
+
+  .footer__submit-your-application {
+    margin-left: -10px;
+    max-width: 541px;
+  }
+
+  .footer-form__container-send {
+    margin-bottom: 50px;
+  }
+
+  .footer-form__btn {
+    margin-right: 19px;
+    width: 240px;
+  }
+
+}
+
+@media (max-width: 955px) {
+
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__links {
+    margin-right: auto;
+  }
+
+  .footer-nav {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  /* Header */
+
+  .header__container {
+    height: 69px;
+  }
+
+  .header-nav {
+    padding-top: 144px;
+    min-height: 732px;
+  }
+
+  /* Hero */
+
+  .section-hero__content {
+    padding-top: 160px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .swiper-slide-1 {
+    background-image: url('../Img/Balconies-768px.png');
+  }
+
+  .section-hero__heading {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .section-hero__description {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* About Us */
+
+  .section-about-us__container {
+    margin-bottom: 86px;
+  }
+
+  .section-about-us__text {
+    margin-bottom: 60.5px;
+  }
+
+  .article-preview-card {
+    min-height: 650px;
+    background-image: url('../Img/Builder-768px.jpg');
+  }
+
+  .article-preview-card__block {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 40px;
+    width: 100%;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .article-preview-card__description {
+    max-width: 366px;
+  }
+
+  .advantages-feature {
+    align-items: center;
+    padding: 34px 39px;
+  }
+
+  .advantages-feature__img {
+    margin-top: 10px;
+    margin-right: 16px;
+  }
+
+  /* Our work */
+
+  .section-our-work__heading {
+    margin-bottom: 49.5px;
+  }
+
+  .section-our-work__steps-list {
+    margin-right: -6px;
+    margin-bottom: 37px;
+    max-width: none;
+  }
+
+  .our-work-content {
+    flex-direction: column-reverse;
+  }
+
+  .our-work-content__img {
+    margin-bottom: 42px;
+    width: 100%;
+    max-width: none;
+    min-height: 284px;
+  }
+
+  .our-work-content__img-1 {
+    background-image: url(../Img/Consultation-768px.jpg);
+  }
+
+  .our-work-content__description {
+    width: 100%;
+    max-width: 668px;
+  }
+
+  .our-work-content__text {
+    margin-bottom: 25px;
+  }
+
+  /* Questions */
+
+  .faq .faq__question {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .faq__heading {
+    max-width: 570px;
+  }
+
+  /* Footer */
+
+  .footer-logo__img {
+    margin-bottom: 16px;
+  }
+
+  .footer__submit-your-application {
+    margin-left: 0;
+  }
+
+  .footer-social__list {
+    margin-top: 5px;
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  /* Header */
+
+  .search {
+    right: 0;
+    width: 100%;
+    z-index: 5;
+  }
+
+  /* Footer */
+
+  .footer__container {
+    flex-direction: column-reverse;
+    padding: 32px 15px;
+  }
+
+  .footer__heading {
+    margin-bottom: 24px;
+  }
+
+  .footer-form {
+    align-items: center;
+  }
+
+  .footer-form__placeholder {
+    margin-bottom: 25px;
+    padding: 13px 20px;
+    font-size: 14px;
+  }
+
+  .footer-form__container-send {
+    flex-direction: column;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-left: auto;
+    padding-bottom: 16px;
+    width: 290px;
+  }
+
+  .footer-form__btn {
+    margin-bottom: 11px;
+    padding: 12px 0;
+    border: none;
+    width: 180px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .form-agreement__label {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .footer__links {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer-logo__img {
+    display: flex;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-left: auto;
+    width: 131px;
+    height: 42px;
+  }
+
+  .footer-social__item {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-social__item:not(:nth-child(3)) {
+    margin-right: 16px;
+  }
+
+  .footer-social__link {
+    height: 40px;
+  }
+
+  .footer-social__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  body {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .container {
+    margin-bottom: 60px;
+    padding: 0 15px;
+  }
+
+  .section-heading {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  /* Header */
+
+  .header-burger {
+    margin-left: 15px;
+  }
+
+  .header__logo {
+    width: 110px;
+    height: 35px;
+  }
+
+  .header-nav {
+    padding-top: 78px;
+    padding-right: 41px;
+    padding-left: 15px;
+    min-width: 320px;
+    min-height: 377px;
+  }
+
+  .header-nav__item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .header-nav__magnifier {
+    margin-right: 13px;
+  }
+
+  /* Hero */
+
+  .section-hero__content {
+    align-items: center;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .swiper {
+    width: calc(100% - 30px);
+  }
+
+  .swiper-slide-1 {
+    background-image: url('../Img/Balconies-320px.png');
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+  .section-hero__heading {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .section-hero__description {
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-hero__btn {
+    margin-bottom: 26px;
+    padding: 6px 0;
+    width: 162px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+
+  /* About Us */
+
+  .section-about-us__heading {
+    margin-bottom: 20px;
+  }
+
+  .section-about-us__text {
+    margin-bottom: 14px;
+  }
+
+  .article-preview-card {
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 3px;
+    flex-direction: column-reverse;
+    min-height: 500px;
+    background-size: 100% auto;
+  }
+
+  .article-preview-card__block {
+    display: block;
+    padding: 0;
+    background: #fff;
+  }
+
+  .article-preview-card__description {
+    margin-top: 8px;
+    margin-right: 0;
+    margin-bottom: 11px;
+    max-width: none;
+    font-weight: normal;
+    color: var(--main-font-color);
+  }
+
+  .article-preview-card__btn {
+    margin-bottom: 29px;
+    padding-top: 11px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    border: 2px solid var(--main-color);
+    width: 162px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--font-color-3);
+  }
+
+  .advantages-feature {
+    display: block;
+    padding: 0;
+    border: none;
+  }
+
+  .advantages-feature__description {
+    margin-top: 3px;
+  }
+
+  .advantages-feature__img {
+    margin-bottom: 12px;
+  }
+
+  .advantages-feature__heading {
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* Our work */
+
+  .section-our-work__heading {
+    margin-bottom: 16px;
+  }
+
+  .section-our-work__steps-list {
+    margin-bottom: 2px;
+  }
+
+  .section-our-work__steps-btn {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .our-work-content__img {
+    margin-bottom: 16px;
+    min-height: 160px;
+  }
+
+  .our-work-content__img-1 {
+    background-image: url(../Img/Consultation-320px.jpg);
+  }
+
+  .our-work-content__heading {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .our-work-content__text {
+    margin-bottom: 16px;
+  }
+
+  .our-work-content__btn-more {
+    margin-right: 10px;
+    padding: 11px 0;
+    width: 162px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .our-work-content__btn-contract {
+    padding: 11px 0;
+    width: 118px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .our-work-content__btn-contract:hover,
+  .our-work-content__btn-contract:focus,
+  .our-work-content__btn-contract:active {
+    padding: 10px 0;
+  }
+
+  /* Questions */
+
+  .section-questions__heading {
+    margin-bottom: 17px;
+  }
+
+  .faq__heading {
+    max-width: 243px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+
+  .faq__btn {
+    margin-right: -11px;
+    margin-left: 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Footer */
+
+  .footer__heading {
+    margin-bottom: 21px;
+  }
+
+  .footer-form__container-send {
+    border-bottom: 1px solid #595959;
+  }
+
+  .footer-form__placeholder:nth-child(3) {
+    margin-bottom: 17px;
+  }
+
+  .footer-form__btn {
+    margin-right: 0;
+  }
+
+  @media (max-width: 320px) {
+
+    /* About Us */
+
+    .article-preview-card {
+      min-height: 428px;
+      background-image: url('../Img/Builder-320px.jpg');
+    }
+
+  }
